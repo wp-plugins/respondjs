@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Respond.js ===
 Contributors: ramoonus
 Donate link: http://www.ramoonus.nl
 Tags: css3, css, javascript, media, internet explorer, 
