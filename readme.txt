@@ -1,10 +1,10 @@
 === Plugin Name ===
-Contributors: ramoonus
-Donate link: http://www.ramoonus.nl
-Tags: css3, css, javascript, media, internet explorer, 
-Requires at least: 3.0.0
-Tested up to: 3.2.1
-Stable tag: 1.0.0.1
+Contributors: Ramoonus
+Donate link: http://www.ramoonus.nl/donate/
+Tags: css3, css, javascript, media, internet explorer, media queries, responsive
+Requires at least: 3.0
+Tested up to: 3.3.1
+Stable tag: 1.1
 
 Respond.js is a fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).
 == Description ==
@@ -35,6 +35,9 @@ How to get it working:
 Its recommended to flush the cache after upgrading.
 
 == Changelog ==
+= 1.1 =
+* Respond.js 1.1
+
 = 1.0.0.1 =
 * contains Respond.js version 1.0.0
 
