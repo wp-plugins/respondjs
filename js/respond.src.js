@@ -11,6 +11,7 @@ window.matchMedia = window.matchMedia || (function(doc, undefined){
   
   div.id = 'mq-test-1';
   div.style.cssText = "position:absolute;top:-100em";
+  fakeBody.style.background = "none";
   fakeBody.appendChild(div);
   
   return function(q){
@@ -52,6 +53,7 @@ window.matchMedia = window.matchMedia || (function(doc, undefined){
 		parsedSheets 	= {},
 		resizeThrottle	= 30,
 		head 			= doc.getElementsByTagName( "head" )[0] || docElem,
+		base			= doc.getElementsByTagName( "base" )[0],
 		links			= head.getElementsByTagName( "link" ),
 		requestQueue	= [],
 		
@@ -76,7 +78,7 @@ window.matchMedia = window.matchMedia || (function(doc, undefined){
 						translate( sheet.styleSheet.rawCssText, href, media );
 						parsedSheets[ href ] = true;
 					} else {
-						if( !/^([a-zA-Z:]*\/\/)/.test( href )
+						if( (!/^([a-zA-Z:]*\/\/)/.test( href ) && !base)
 							|| href.replace( RegExp.$1, "" ).split( "/" )[0] === win.location.host ){
 							requestQueue.push( {
 								href: href,
@@ -175,6 +177,7 @@ window.matchMedia = window.matchMedia || (function(doc, undefined){
 					
 			if( !body ){
 				body = fakeUsed = doc.createElement( "body" );
+				body.style.background = "none";
 			}
 					
 			body.appendChild( div );

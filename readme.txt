@@ -1,10 +1,10 @@
-=== Plugin Name ===
+=== Respond.js ===
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: css3, css, javascript, media, internet explorer, media queries, responsive
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 1.1
+Stable tag: 1.2.0
 
 Respond.js is a fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).
 == Description ==
@@ -17,7 +17,7 @@ The goal of this script is to provide a fast and lightweight (3kb minified / 1kb
 
 If you're unfamiliar with the concepts surrounding Responsive Web Design, you can read up [here](http://www.alistapart.com/articles/responsive-web-design/) and also [here](http://filamentgroup.com/examples/responsive-images/)
 
-How to get it working:
+= How to get it working =
 
 - Craft your CSS with min/max-width media queries to adapt your layout from mobile (first) all the way up to desktop
 - Follow each of your media query closing braces with this closing comment (handy for scanning the stylesheet anyway, IMHO):
@@ -35,11 +35,15 @@ How to get it working:
 Its recommended to flush the cache after upgrading.
 
 == Changelog ==
+= 1.2.0 =
+* Based on Respond.js 1.2.0
+* Readme updated
+
 = 1.1 =
-* Respond.js 1.1
+* Based on Respond.js 1.1
 
 = 1.0.0.1 =
-* contains Respond.js version 1.0.0
+* Based on Respond.js 1.0.0
 
 = 1.0.0 =
 * First version (8-5-2011)
