@@ -2,8 +2,8 @@
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: css3, css, javascript, media, internet explorer, media queries, responsive
-Requires at least: 3.0
-Tested up to: 3.9.1
+Requires at least: 3.9
+Tested up to: 4.1
 Stable tag: 1.4.2
 
 Respond.js is a fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more).
